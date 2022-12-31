@@ -58,12 +58,10 @@
         transition: background-color 0.3s;
     }
     .navBar {
-        //font-size: 0.5em;
-        // position: absolute;
-        // left: -100%;
         display: grid;
-        grid-template-columns: repeat(2 1fr);
-        place-content: center;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-flow: row;
+        place-content: center center;
         height: fit-content;
         row-gap: 2vh;
         button:hover {
