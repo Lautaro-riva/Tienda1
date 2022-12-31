@@ -1,0 +1,27 @@
+@use "/Colors/colors1" as *;
+// UTILITY CLASSES
+.hidden {
+    opacity:1;
+}
+// .hideSide {
+//     //width: 3vw;
+// }
+.flwrapperC {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.flwrapperR {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.gridwrapper {
+    display: grid;
+    grid-template-columns: auto;
+}
+.main_container {
+    display: flex;
+    background-color: $DrkBgClr1;
+
+}
