@@ -1,9 +1,11 @@
 @forward "./Assets/GeneralStyleSheets/Partials";
 @use "/Colors/colors1" as *;
 body {
+    display: flex;
+    flex-direction: column;
+    height: 2000px;
     padding: 1vw;
     margin: 0px;
-    display: grid;
     background-color: $DrkBgClr1;
 }
 
